@@ -1,3 +1,4 @@
-for (var i = 1; i <= 100; i++) {
-	console.log(i % 15 === 0 ?'CracklePop' : i % 3 === 0 ? 'Crackle' : i % 5 === 0 ? 'Pop' : i);
+a=0;
+while (++a <= 100) {
+	console.log(a % 15 === 0 ?'CracklePop' : a % 3 === 0 ? 'Crackle' : a % 5 === 0 ? 'Pop' : a);
 }
